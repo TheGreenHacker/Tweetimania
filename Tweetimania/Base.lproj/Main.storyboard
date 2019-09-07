@@ -47,6 +47,9 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="Predict"/>
+                                                <connections>
+                                                    <action selector="predict:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uIf-Hj-5cK"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -75,6 +78,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="sentimentLabel" destination="Yzp-Gg-3L3" id="9VD-Ub-XCG"/>
+                        <outlet property="textField" destination="ycJ-e8-3VT" id="ZGG-b1-1Q8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
